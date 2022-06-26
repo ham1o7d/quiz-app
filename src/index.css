@@ -1,0 +1,29 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+button, a{
+  cursor: pointer;
+}
+
+html{
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container{
+  width: 80%;
+  border: 1px solid rgb(122, 237, 7);
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+::selection{
+  background-color: white;
+  color: rgb(7, 195, 237);
+}
